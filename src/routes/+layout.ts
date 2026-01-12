@@ -1,6 +1,6 @@
 import { MAPS } from '$lib/data';
 
-function loadCSV(data: string) {
+function loadCSV<T extends Record<string, string | number>>(data: string) {
 	const [header, ...rows] = data
 		.trim()
 		.split('\n')
@@ -16,18 +16,18 @@ function loadCSV(data: string) {
 		}
 		return obj;
 	});
-	return res;
+	return res as T[];
 }
 
 export function load() {
-	const maps = loadCSV(MAPS);
+	const maps = loadCSV<Record<'name' | 'cup' | 'tn', string>>(MAPS);
 	const cups = maps.reduce((set, val) => {
 		set.add(val.cup as string);
 		return set;
 	}, new Set<string>());
 	return {
 		maps,
-		cups
+		cups,
 	};
 }
 

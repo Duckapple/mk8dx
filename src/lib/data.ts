@@ -48,7 +48,8 @@ Wario,4.75,3,4.25,2.75,3.25
 Dry Bowser,4.75,3,4.25,2.75,3.25
 Funky Kong,4.75,3,4.25,2.75,3.25
 Bowser,4.75,3,4.5,2.5,3
-Morton,4.75,3,4.5,2.5,3`;
+Morton,4.75,3,4.5,2.5,3
+`;
 
 export const VEHICLE_DATA: string = `
 name,speed,acceleration,weight,handling,traction
@@ -92,7 +93,8 @@ Teddy Buggy,-0.25,0.25,0,0.25,0
 Bone Rattler,0.25,-0.75,0.5,-0.5,0
 Splat Buggy,0.25,-0.25,-0.5,-0.25,0
 Inkstriker,0,-0.25,0.25,-0.25,0.25
-Master Cycle Zero,0,-0.5,0.25,0.25,1`;
+Master Cycle Zero,0,-0.5,0.25,0.25,1
+`;
 
 export const TIRE_DATA: string = `
 name,speed,acceleration,weight,handling,traction
@@ -117,7 +119,8 @@ Gold Tires,0.5,-1,0.5,-0.25,-0.75
 GLA Tires,0,0,0,0,0
 Triforce Tires,0.25,-0.25,0.25,-0.5,0.25
 Leaf Tires,-0.25,0.25,-0.5,0,-0.5
-Ancient Tires,0.25,-0.5,0.5,-0.75,0.5`;
+Ancient Tires,0.25,-0.5,0.5,-0.75,0.5
+`;
 
 export const GLIDER_DATA: string = `
 name,speed,acceleration,weight,handling,traction
@@ -135,103 +138,105 @@ MKTV Parafoil,-0.25,0.25,0,0,-0.25
 Gold Glider,0,0,0.25,0,-0.25
 Hylian Kite,0,0,0,0,0
 Paper Glider,-0.25,0.25,-0.25,0,0
-Paraglider,0,0,0.25,0,-0.25`;
+Paraglider,0,0,0.25,0,-0.25
+`;
 
 export const MAPS: string = `
-name,cup
-Mario Kart Stadium,Mushroom Cup
-Water Park,Mushroom Cup
-Sweet Sweet Canyon,Mushroom Cup
-Thwomp Ruins,Mushroom Cup
-Mario Circuit,Flower Cup
-Toad Harbor,Flower Cup
-Twisted Mansion,Flower Cup
-Shy Guy Falls,Flower Cup
-Sunshine Airport,Star Cup
-Dolphin Shoals,Star Cup
-Electrodome,Star Cup
-Mount Wario,Star Cup
-Cloudtop Cruise,Special Cup
-Bone-Dry Dunes,Special Cup
-Bowser's Castle,Special Cup
-Rainbow Road,Special Cup
-Yoshi Circuit (GCN),Egg Cup
-Excitebike Arena,Egg Cup
-Dragon Driftway,Egg Cup
-Mute City,Egg Cup
-Baby Park (GCN),Crossing Cup
-Cheese Land (GBA),Crossing Cup
-Wild Woods,Crossing Cup
-Animal Crossing,Crossing Cup
-Moo Moo Meadows (Wii),Shell Cup
-Mario Circuit (GBA),Shell Cup
-Cheep Cheep Beach (DS),Shell Cup
-Toad's Turnpike (N64),Shell Cup
-Dry Dry Desert (GCN),Banana Cup
-Donut Plains 3 (SNES),Banana Cup
-Royal Raceway (N64),Banana Cup
-DK Jungle (3DS),Banana Cup
-Wario Stadium (DS),Leaf Cup
-Sherbet Land (GCN),Leaf Cup
-Music Park (3DS),Leaf Cup
-Yoshi Valley (N64),Leaf Cup
-Tick-Tock Clock (DS),Lightning Cup
-Piranha Plant Slide (3DS),Lightning Cup
-Grumble Volcano (Wii),Lightning Cup
-Rainbow Road (N64),Lightning Cup
-Wario's Gold Mine (Wii),Triforce Cup
-Rainbow Road (SNES),Triforce Cup
-Ice Ice Outpost,Triforce Cup
-Hyrule Circuit,Triforce Cup
-Neo Bowser City (3DS),Bell Cup
-Ribbon Road (GBA),Bell Cup
-Super Bell Subway,Bell Cup
-Big Blue,Bell Cup
-Paris Promenade (Tour),Golden Dash Cup
-Toad Circuit (3DS),Golden Dash Cup
-Choco Mountain (N64),Golden Dash Cup
-Coconut Mall (Wii),Golden Dash Cup
-Tokyo Blur (Tour),Lucky Cat Cup
-Shroom Ridge (DS),Lucky Cat Cup
-Sky Garden (GBA),Lucky Cat Cup
-Ninja Hideaway,Lucky Cat Cup
-New York Minute (Tour),Turnip Cup
-Mario Circuit 3 (SNES),Turnip Cup
-Kalimari Desert (N64),Turnip Cup
-Waluigi Pinball (DS),Turnip Cup
-Sydney Sprint (Tour),Propeller Cup
-Snow Land (GBA),Propeller Cup
-Mushroom Gorge (Wii),Propeller Cup
-Sky-High Sundae,Propeller Cup
-London Loop (Tour),Rock Cup
-Boo Lake (GBA),Rock Cup
-Rock Rock Mountain (3DS),Rock Cup
-Maple Treeway (Wii),Rock Cup
-Berlin Byways (Tour),Moon Cup
-Peach Gardens (DS),Moon Cup
-Merry Mountain,Moon Cup
-Rainbow Road (3DS),Moon Cup
-Amsterdam Drift (Tour),Fruit Cup
-Riverside Park (GBA),Fruit Cup
-DK Summit (Wii),Fruit Cup
-Yoshi's Island,Fruit Cup
-Bangkok Rush (Tour),Boomerang Cup
-Mario Circuit (DS),Boomerang Cup
-Waluigi Stadium (GCN),Boomerang Cup
-Singapore Speedway (Tour),Boomerang Cup
-Athens Dash (Tour),Feather Cup
-Daisy Cruiser (GCN),Feather Cup
-Moonview Highway (Wii),Feather Cup
-Squeaky Clean Sprint,Feather Cup
-Los Angeles Laps (Tour),Cherry Cup
-Sunset Wilds (GBA),Cherry Cup
-Koopa Cape (Wii),Cherry Cup
-Vancouver Velocity (Tour),Cherry Cup
-Rome Avanti (Tour),Acorn Cup
-DK Mountain (GCN),Acorn Cup
-Daisy Circuit (Wii),Acorn Cup
-Pirahna Plant Cove,Acorn Cup
-Madrid Drive (Tour),Spiny Cup
-Rosalina's Ice World (3DS),Spiny Cup
-Bowser Castle 3 (SNES),Spiny Cup
-Rainbow Road (Wii),Spiny Cup`;
+name,cup,tn
+Mario Kart Stadium,Mushroom Cup,
+Water Park,Mushroom Cup,
+Sweet Sweet Canyon,Mushroom Cup,
+Thwomp Ruins,Mushroom Cup,
+Mario Circuit,Flower Cup,
+Toad Harbor,Flower Cup,Toad Harbour
+Twisted Mansion,Flower Cup,
+Shy Guy Falls,Flower Cup,
+Sunshine Airport,Star Cup,
+Dolphin Shoals,Star Cup,
+Electrodome,Star Cup,
+Mount Wario,Star Cup,
+Cloudtop Cruise,Special Cup,
+Bone-Dry Dunes,Special Cup,Bone Dry Dunes
+Bowser's Castle,Special Cup,
+Rainbow Road,Special Cup,
+Yoshi Circuit (GCN),Egg Cup,
+Excitebike Arena,Egg Cup,
+Dragon Driftway,Egg Cup,
+Mute City,Egg Cup,
+Baby Park (GCN),Crossing Cup,
+Cheese Land (GBA),Crossing Cup,
+Wild Woods,Crossing Cup,
+Animal Crossing,Crossing Cup,
+Moo Moo Meadows (Wii),Shell Cup,
+Mario Circuit (GBA),Shell Cup,
+Cheep Cheep Beach (DS),Shell Cup,
+Toad's Turnpike (N64),Shell Cup,
+Dry Dry Desert (GCN),Banana Cup,
+Donut Plains 3 (SNES),Banana Cup,
+Royal Raceway (N64),Banana Cup,
+DK Jungle (3DS),Banana Cup,
+Wario Stadium (DS),Leaf Cup,
+Sherbet Land (GCN),Leaf Cup,
+Music Park (3DS),Leaf Cup,Melody Motorway (3DS)
+Yoshi Valley (N64),Leaf Cup,
+Tick-Tock Clock (DS),Lightning Cup,
+Piranha Plant Slide (3DS),Lightning Cup,Piranha Plant Pipeway (3DS)
+Grumble Volcano (Wii),Lightning Cup,
+Rainbow Road (N64),Lightning Cup,
+Wario's Gold Mine (Wii),Triforce Cup,
+Rainbow Road (SNES),Triforce Cup,
+Ice Ice Outpost,Triforce Cup,
+Hyrule Circuit,Triforce Cup,
+Neo Bowser City (3DS),Bell Cup,Koopa City (3DS)
+Ribbon Road (GBA),Bell Cup,
+Super Bell Subway,Bell Cup,
+Big Blue,Bell Cup,
+Paris Promenade (Tour),Golden Dash Cup,
+Toad Circuit (3DS),Golden Dash Cup,
+Choco Mountain (N64),Golden Dash Cup,
+Coconut Mall (Wii),Golden Dash Cup,
+Tokyo Blur (Tour),Lucky Cat Cup,
+Shroom Ridge (DS),Lucky Cat Cup,
+Sky Garden (GBA),Lucky Cat Cup,
+Ninja Hideaway,Lucky Cat Cup,
+New York Minute (Tour),Turnip Cup,
+Mario Circuit 3 (SNES),Turnip Cup,
+Kalimari Desert (N64),Turnip Cup,
+Waluigi Pinball (DS),Turnip Cup,
+Sydney Sprint (Tour),Propeller Cup,
+Snow Land (GBA),Propeller Cup,
+Mushroom Gorge (Wii),Propeller Cup,
+Sky-High Sundae,Propeller Cup,
+London Loop (Tour),Rock Cup,
+Boo Lake (GBA),Rock Cup,
+Rock Rock Mountain (3DS),Rock Cup,Alpine Pass (3DS)
+Maple Treeway (Wii),Rock Cup,
+Berlin Byways (Tour),Moon Cup,
+Peach Gardens (DS),Moon Cup,
+Merry Mountain,Moon Cup,
+Rainbow Road (3DS),Moon Cup,
+Amsterdam Drift (Tour),Fruit Cup,
+Riverside Park (GBA),Fruit Cup,
+DK Summit (Wii),Fruit Cup,DK's Snowboard Cross (Wii)
+Yoshi's Island,Fruit Cup,
+Bangkok Rush (Tour),Boomerang Cup,
+Mario Circuit (DS),Boomerang Cup,
+Waluigi Stadium (GCN),Boomerang Cup,
+Singapore Speedway (Tour),Boomerang Cup,
+Athens Dash (Tour),Feather Cup,
+Daisy Cruiser (GCN),Feather Cup,
+Moonview Highway (Wii),Feather Cup,
+Squeaky Clean Sprint,Feather Cup,
+Los Angeles Laps (Tour),Cherry Cup,
+Sunset Wilds (GBA),Cherry Cup,
+Koopa Cape (Wii),Cherry Cup,
+Vancouver Velocity (Tour),Cherry Cup,
+Rome Avanti (Tour),Acorn Cup,
+DK Mountain (GCN),Acorn Cup,
+Daisy Circuit (Wii),Acorn Cup,
+Pirahna Plant Cove,Acorn Cup,
+Madrid Drive (Tour),Spiny Cup,
+Rosalina's Ice World (3DS),Spiny Cup,
+Bowser Castle 3 (SNES),Spiny Cup,
+Rainbow Road (Wii),Spiny Cup,
+`;
