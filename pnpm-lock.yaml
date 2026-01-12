@@ -18,6 +18,9 @@ importers:
       '@eslint/js':
         specifier: ^9.39.1
         version: 9.39.2
+      '@sidekickicons/svelte':
+        specifier: ^0.14.0
+        version: 0.14.0(svelte@5.46.1)
       '@sveltejs/adapter-static':
         specifier: ^3.0.10
         version: 3.0.10(@sveltejs/kit@2.49.4(@sveltejs/vite-plugin-svelte@6.2.3(svelte@5.46.1)(vite@7.3.1(@types/node@18.19.130)(jiti@2.6.1)(lightningcss@1.30.2)))(svelte@5.46.1)(typescript@5.9.3)(vite@7.3.1(@types/node@18.19.130)(jiti@2.6.1)(lightningcss@1.30.2)))
@@ -758,6 +761,11 @@ packages:
     resolution: {integrity: sha512-SPEpaL6DX4rmcXtnhdrQYgzQ5W2uW3SCJch88lB2zImhJRhIIK44fkUrgIV/Q8yUNfw5oyZ5vkeQsZLhCb06lw==}
     cpu: [x64]
     os: [win32]
+
+  '@sidekickicons/svelte@0.14.0':
+    resolution: {integrity: sha512-qzv6wM8zMCGqGnLz7XxSAabRkIdgij74tVOcCwHQm2cvV4SfEwoxhD6grkyjJlE4C1fgtkJuCdWe4zX8k8SIOg==}
+    peerDependencies:
+      svelte: ^5.19.0
 
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
@@ -2428,6 +2436,10 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.55.1':
     optional: true
+
+  '@sidekickicons/svelte@0.14.0(svelte@5.46.1)':
+    dependencies:
+      svelte: 5.46.1
 
   '@standard-schema/spec@1.1.0': {}
 
