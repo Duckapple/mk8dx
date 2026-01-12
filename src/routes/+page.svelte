@@ -48,7 +48,7 @@
 	{@const maps = data.maps.filter((m) => m.cup === current)}
 	<div class="flex gap-4">
 		{#each maps as map}
-			<div class="flex flex-col gap-2 text-sm">
+			<div class="flex flex-col justify-between gap-2 text-sm">
 				{map.tn || map.name}
 				<img
 					src="https://ryankopp.github.io/mk8d-randomizer/assets/maps/{encodeURIComponent(
