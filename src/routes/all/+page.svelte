@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Button from '$lib/components/button.svelte';
+
 	let { data } = $props();
 
 	let current = $state('');
@@ -16,13 +18,7 @@
 </svelte:head>
 
 <div class="flex justify-center">
-	<button
-		type="button"
-		class="my-6 cursor-pointer rounded-2xl bg-linear-210 from-orange-600 via-amber-600 to-yellow-600 px-10 py-6 text-2xl text-white transition-all hover:scale-125 active:scale-90"
-		onclick={randomize}
-	>
-		Randomize
-	</button>
+	<Button onclick={randomize}>Randomize</Button>
 </div>
 
 <div class="grid grid-cols-6 gap-2">
