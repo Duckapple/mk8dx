@@ -25,12 +25,12 @@ jobs:
       - name: Install dependencies
         run: pnpm i
 
-      - name: see the env
-        run: env
-
       - name: build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
+          PUBLIC_DATABASE_URL: ${{ env.PUBLIC_DATABASE_URL }}
+          JWKS_ID: ${{ env.JWKS_ID }}
+          JWKS_KEY: ${{ env.JWKS_KEY }}
         run: |
           pnpm run build
 
