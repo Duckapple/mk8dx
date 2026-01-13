@@ -28,9 +28,9 @@ jobs:
       - name: build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
-          PUBLIC_DATABASE_URL: '${{ env.PUBLIC_DATABASE_URL }}'
-          JWKS_ID: '${{ env.JWKS_ID }}'
-          JWKS_KEY: '${{ env.JWKS_KEY }}'
+          PUBLIC_DATABASE_URL: '${{ vars.PUBLIC_DATABASE_URL }}'
+          JWKS_ID: '${{ vars.JWKS_ID }}'
+          JWKS_KEY: '${{ vars.JWKS_KEY }}'
         run: |
           pnpm run build
 
