@@ -3,6 +3,7 @@
 	import ControllerButton from '$lib/components/controller-button.svelte';
 	import { SvelteSet } from 'svelte/reactivity';
 	import { fade } from 'svelte/transition';
+	// import { client } from '$lib/db/index';
 
 	let { data } = $props();
 
@@ -41,7 +42,7 @@
 	const fasterTrackNum = $derived(trackNum === 3 ? -1 : trackNum);
 </script>
 
-<div class="flex h-dvh w-full flex-col items-center justify-between pt-10 pb-4">
+<div class="flex h-full w-full flex-col items-center justify-between pt-10 pb-4">
 	<div class="flex w-full flex-col items-center gap-8 px-4">
 		<img
 			src="/cups/{current.cup}.png"
@@ -94,6 +95,14 @@
 		</span>
 	</div>
 	<div class="flex flex-col items-center gap-2">
+		<!-- <Button
+			onclick={async () => {
+				// const res = await client?.from('player').select();
+				// console.log(res);
+			}}
+		>
+			make a query please :)
+		</Button> -->
 		<span
 			><span class="text-xl font-medium">{data.maps.length - last.size}</span> left to pick from</span
 		>
