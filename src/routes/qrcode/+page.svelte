@@ -4,9 +4,13 @@
 
 	let svg = $state('');
 	if (browser) {
-		const username = localStorage.getItem('email') || '';
+		const email = localStorage.getItem('email') || '';
 		const password = localStorage.getItem('password') || '';
-		svg = qrcode(`${location.origin}/login?username=${username}&password=${password}`, {
+		const search = new URLSearchParams({
+			email,
+			password,
+		});
+		svg = qrcode(`${location.origin}/login?${search}`, {
 			output: 'svg',
 			dark: '#1d293d',
 			light: '#cad5e2',
