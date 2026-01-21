@@ -3,7 +3,6 @@
 	import ControllerButton from '$lib/components/controller-button.svelte';
 	import { SvelteSet } from 'svelte/reactivity';
 	import { fade } from 'svelte/transition';
-	// import { client } from '$lib/db/index';
 
 	let { data } = $props();
 
@@ -52,9 +51,7 @@
 		<div class="relative min-h-full w-3/4 max-w-96">
 			{#key current.name}
 				<img
-					src="https://ryankopp.github.io/mk8d-randomizer/assets/maps/{encodeURIComponent(
-						current.name,
-					)}.webp"
+					src="/maps/{encodeURIComponent(current.name)}.webp"
 					alt={name}
 					title={name}
 					class="absolute top-0 w-full rounded-md border border-slate-400"
@@ -95,14 +92,6 @@
 		</span>
 	</div>
 	<div class="flex flex-col items-center gap-2">
-		<!-- <Button
-			onclick={async () => {
-				// const res = await client?.from('player').select();
-				// console.log(res);
-			}}
-		>
-			make a query please :)
-		</Button> -->
 		<span
 			><span class="text-xl font-medium">{data.maps.length - last.size}</span> left to pick from</span
 		>
@@ -122,11 +111,6 @@
 
 <div class="sr-only">
 	{#each data.maps as map}
-		<img
-			src="https://ryankopp.github.io/mk8d-randomizer/assets/maps/{encodeURIComponent(
-				map.name,
-			)}.webp"
-			alt={map.name}
-		/>
+		<img src="/maps/{encodeURIComponent(map.name)}.webp" alt={map.name} />
 	{/each}
 </div>
