@@ -31,6 +31,8 @@ jobs:
           PUBLIC_DATABASE_URL: '${{ vars.PUBLIC_DATABASE_URL }}'
           JWKS_ID: '${{ vars.JWKS_ID }}'
           JWKS_KEY: '${{ vars.JWKS_KEY }}'
+          PUBLIC_NEON_AUTH_URL: '${{ vars.PUBLIC_NEON_AUTH_URL }}'
+          PUBLIC_NEON_REST_URL: '${{ vars.PUBLIC_NEON_REST_URL }}'
         run: |
           pnpm run build
 
